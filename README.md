@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="" alt="Logo" width="80" height="80">
+  <img src="https://github.com/MyFreds/SavedInventoryPlayer/blob/main/icon.png" alt="Logo" width="80" height="80">
   <h3>SavedInventoryPlayer</h3>
   <p align="center">
     Storing Inventory player data in a YAML database
