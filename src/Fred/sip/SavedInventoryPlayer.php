@@ -16,7 +16,6 @@ use pocketmine\nbt\TreeRoot;
 class SavedInventoryPlayer extends PluginBase implements Listener {
 
     public function onEnable(): void {
-        $this->getLogger()->info("SavedInventoryPlayer enabled");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
 
         // Ensure data folder exists
@@ -26,8 +25,6 @@ class SavedInventoryPlayer extends PluginBase implements Listener {
     }
 
     public function onDisable(): void {
-        $this->getLogger()->info("SavedInventoryPlayer disabled");
-
         // Save inventories of all online players
         foreach ($this->getServer()->getOnlinePlayers() as $player) {
             $this->savePlayerInventory($player);
