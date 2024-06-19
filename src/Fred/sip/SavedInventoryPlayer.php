@@ -1,6 +1,6 @@
 <?php
 
-namespace Fred;
+namespace Fred\sip;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
